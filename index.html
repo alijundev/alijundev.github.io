@@ -1,14 +1,254 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sulfikar Alijun | Personal Website</title>
-    <link rel="stylesheet" href="./src/style.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sulfikar Alijun - Computer Science Student</title>
+    <meta name="description"
+        content="Sulfikar Alijun is a computer science student building foundations in JavaScript and Rust. View projects, tech stack, and get in touch." />
+    <link rel="stylesheet" href="./src/style.css" />
 </head>
+
 <body>
-    <h1>Sulfikar Alijun</h1>
+    <!-- ===== Header / Navigation ===== -->
+    <header id="site-header">
+        <div class="container header-inner">
+            <a href="/" class="logo">Alijun <span class="logo-black">Dev</span></a>
+
+            <!-- Hamburger button (mobile) -->
+            <button class="hamburger" id="hamburger-btn" aria-label="Toggle navigation" aria-expanded="false">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+
+            <nav id="main-nav">
+                <a href="#hero">Home</a>
+                <a href="#about">About</a>
+                <a href="#education">Education</a>
+                <a href="#tech-stack">Tech Stack</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- ===== Hero Section ===== -->
+        <section id="hero" class="section hero-section">
+            <div class="container fade-in">
+                <p class="label">Computer Science Student</p>
+                <h1>Sulfikar Alijun — Aspiring Fullstack Developer, Backend Focused</h1>
+                <p class="hero-subtitle">
+                    Currently learning JavaScript and Rust. Building strong foundations
+                    in programming and system thinking.
+                </p>
+                <a href="#projects" class="btn btn-primary">View My Work</a>
+            </div>
+        </section>
+
+        <!-- ===== About Section ===== -->
+        <section id="about" class="section">
+            <div class="container fade-in">
+                <h2>About Me</h2>
+                <p>
+                    Hi, I'm Sulfikar Alijun — a Computer Science student at Halu Oleo University
+                    with a passion for building things through code. I'm on a journey to become
+                    a fullstack developer with a strong focus on backend engineering.
+                </p>
+                <p>
+                    I am currently building my foundation in modern software development,
+                    learning JavaScript for web development and Rust to understand
+                    system-level programming concepts.
+                </p>
+                <p>
+                    I focus on strengthening problem solving, programming fundamentals,
+                    and technical discipline.
+                </p>
+            </div>
+        </section>
+
+        <!-- ===== Education Section ===== -->
+        <section id="education" class="section">
+            <div class="container fade-in">
+                <h2>Education</h2>
+                <div class="table-wrapper">
+                    <table class="edu-table">
+                        <thead>
+                            <tr>
+                                <th>Level</th>
+                                <th>Institution</th>
+                                <th>Year</th>
+                                <th>Status</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>High School</td>
+                                <td>SMAN 1 Lasolo</td>
+                                <td>2021 – 2024</td>
+                                <td><span class="status-badge graduated">Graduated</span></td>
+                            </tr>
+                            <tr>
+                                <td>Bachelor Degree</td>
+                                <td>Halu Oleo University</td>
+                                <td>2024 – Present</td>
+                                <td><span class="status-badge ongoing">Ongoing</span></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== Tech Stack Section ===== -->
+        <section id="tech-stack" class="section">
+            <div class="container fade-in">
+                <h2>Currently Learning / Tech Stack</h2>
+                <div class="tech-grid">
+                    <div class="tech-card">
+                        <span class="tech-icon">&#60;/&#62;</span>
+                        <span class="tech-name">HTML</span>
+                    </div>
+                    <div class="tech-card">
+                        <span class="tech-icon">&#123;&#125;</span>
+                        <span class="tech-name">CSS</span>
+                    </div>
+                    <div class="tech-card">
+                        <span class="tech-icon">JS</span>
+                        <span class="tech-name">JavaScript</span>
+                    </div>
+                    <div class="tech-card">
+                        <span class="tech-icon">TS</span>
+                        <span class="tech-name">TypeScript</span>
+                    </div>
+                    <div class="tech-card">
+                        <span class="tech-icon">Rs</span>
+                        <span class="tech-name">Rust</span>
+                    </div>
+                    <div class="tech-card">
+                        <span class="tech-icon">⬡</span>
+                        <span class="tech-name">Node.js</span>
+                    </div>
+                    <div class="tech-card">
+                        <span class="tech-icon">Sv</span>
+                        <span class="tech-name">Svelte</span>
+                    </div>
+                    <div class="tech-card">
+                        <span class="tech-icon">My</span>
+                        <span class="tech-name">MySQL</span>
+                    </div>
+                    <div class="tech-card">
+                        <span class="tech-icon">Pg</span>
+                        <span class="tech-name">PostgreSQL</span>
+                    </div>
+                    <div class="tech-card">
+                        <span class="tech-icon">🐳</span>
+                        <span class="tech-name">Docker</span>
+                    </div>
+                    <div class="tech-card">
+                        <span class="tech-icon">⎇</span>
+                        <span class="tech-name">Git</span>
+                    </div>
+                    <div class="tech-card">
+                        <span class="tech-icon">$_</span>
+                        <span class="tech-name">Linux</span>
+                    </div>
+                    <div class="tech-card">
+                        <span class="tech-icon">⇆</span>
+                        <span class="tech-name">REST API</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== Projects Section ===== -->
+        <section id="projects" class="section">
+            <div class="container fade-in">
+                <h2>Practice Projects</h2>
+                <div class="projects-grid">
+
+                    <article class="project-card">
+                        <div class="project-tag">Rust</div>
+                        <h3>CLI Task Manager</h3>
+                        <p>
+                            A command-line task manager created to understand ownership and
+                            struct concepts.
+                        </p>
+                        <a href="https://github.com/alijundev/rudo-rs" target="_blank" rel="noopener noreferrer"
+                            class="project-link">View on GitHub →</a>
+                    </article>
+                    <article class="project-card">
+                        <div class="project-tag">HTML / CSS / JS</div>
+                        <h3>Personal Portfolio Website</h3>
+                        <p>
+                            A clean portfolio website built using pure HTML, CSS, and
+                            JavaScript.
+                        </p>
+                        <a href="https://alijundev.github.io/" target="_blank" rel="noopener noreferrer"
+                            class="project-link">View Live →</a>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== Contact Section ===== -->
+        <section id="contact" class="section">
+            <div class="container fade-in">
+                <h2>Contact</h2>
+                <form id="contact-form" class="contact-form" novalidate>
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" placeholder="Your name" required />
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="you@example.com" required />
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" placeholder="Write your message…"
+                            required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary" id="submit-btn">
+                        Send Message
+                    </button>
+                    <p class="form-success" id="form-success" aria-live="polite"></p>
+                </form>
+
+                <div class="social-links">
+                    <p class="social-label">Find me on</p>
+                    <div class="social-icons">
+                        <a href="https://github.com/alijundev" target="_blank" rel="noopener noreferrer"
+                            class="social-link">
+                            <span class="social-icon">GH</span>
+                            <span>GitHub</span>
+                        </a>
+                        <a href="https://linkedin.com/in/sulfikaralijun" target="_blank" rel="noopener noreferrer"
+                            class="social-link">
+                            <span class="social-icon">in</span>
+                            <span>LinkedIn</span>
+                        </a>
+                        <a href="https://instagram.com/fikar.dev" target="_blank" rel="noopener noreferrer"
+                            class="social-link">
+                            <span class="social-icon">IG</span>
+                            <span>Instagram</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- ===== Footer ===== -->
+    <footer id="site-footer">
+        <div class="container">
+            <p>&copy; 2026 Sulfikar Alijun. All rights reserved.</p>
+        </div>
+    </footer>
 
     <script src="./src/main.js"></script>
 </body>
+
 </html>
